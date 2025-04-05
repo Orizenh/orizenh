@@ -56,7 +56,7 @@
         padding: 0 1rem;
         max-width: 75%;
         margin: auto;
-        top: -50px;
+        top: -20px;
     }
     @media (max-width: 991px) {
         section{
