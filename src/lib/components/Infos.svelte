@@ -37,7 +37,7 @@
     
         <h3>Services proposés</h3>
         <ul>
-        <li>Développement Front & Back (Svelte, React, Node.js...)</li>
+        <li>Développement Front & Back (Svelte, React, Node.js, PHP/Symfony, GO, MySql...)</li>
         <li>Création de landing pages optimisées</li>
         <li>Intégration responsive & SEO friendly</li>
         <li>Déploiement, maintenance & optimisation continue</li>
