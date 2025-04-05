@@ -58,6 +58,18 @@
         margin: auto;
         top: -50px;
     }
+    @media (max-width: 991px) {
+        section{
+            top: 0;
+            position: absolute;
+            width: auto;
+            max-width: 100%;
+            padding: 1rem 1rem 5rem 1rem;
+        }
+        img{
+            display: none;
+        }
+    }
     section *{
         text-shadow: 0 0 10px var(--blue);
     }

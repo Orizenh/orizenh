@@ -50,6 +50,11 @@
 {/if}
 
 <style>
+    @media (max-width: 991px) {
+        footer{
+            background-color: var(--black);
+        }
+    }
     footer{
         position: fixed;
         bottom: 0;

@@ -9,8 +9,7 @@
 html{
     height: 100%;
 }
-body{
-    overflow: hidden;
+body{ 
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -21,7 +20,12 @@ body{
     background-size: 300% 300%;
     background-image: linear-gradient(-45deg, var(--purple) 10%, var(--blue) 15%, var(--black) 30%);
     -webkit-animation: AnimateBG 20s ease infinite;
-            animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+}
+@media (max-width: 991px) {
+  body{
+    background-image: linear-gradient(209deg, var(--purple) 20%, var(--blue) 31%, var(--black) 46%);
+  }
 }
   
 @-webkit-keyframes AnimateBG {
