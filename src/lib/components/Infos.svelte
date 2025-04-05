@@ -61,7 +61,8 @@
     section *{
         text-shadow: 0 0 10px var(--blue);
     }
-    h2{
+    h2, h3{
+        color: var(--blue);
         margin-top: 0;
     }
     p{
