@@ -16,6 +16,11 @@
 </div>
 
 <style>
+    @media screen and (max-width: 991px) {
+        .wrapper {
+            display: none;
+        }
+    }
     .wrapper {
         top: -30px;
         position: absolute;
