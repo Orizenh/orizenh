@@ -12,8 +12,14 @@
         }, 100)
     })
 
-
 </script>
+
+<svelte:head>
+    <title>Orizenh | Présentation de l'entreprise</title>
+    <meta name="description" content="Orizenh, c’est l’alliance entre performance, design soigné et développement zen. Fort de 10 ans d’expérience en développement web, je crée des sites modernes, rapides et 100 % adaptés à vos besoins. De la landing page percutante à l’application sur-mesure, chaque projet est conçu avec rigueur, simplicité… et élégance." />
+</svelte:head>
+
+
 {#if showInfos}
     <section class="orizenh-presentation" transition:fade={{duration:1000}}>
         <h2>
